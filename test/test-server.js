@@ -138,7 +138,7 @@ describe('Shopping List', function() {
       });
   });
 });
-
+    //RECIPES SECTION
 describe('recipes', function() {
   before(function() {
     return runServer();
@@ -180,7 +180,6 @@ describe('recipes', function() {
       name: 'foo',
       ingredients: ['whatever']
     };
-
     return chai.request(app)
       .get('/recipes')
       .then(function(res) {
