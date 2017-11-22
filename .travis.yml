@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: kQ2KHDI0UIZngssGr30AYNC3/qtXjWqQXeF6wV5mPgdUE8Pf+Ck7CVrwEsdFL0sootG1HIBmmJm2EN69Oove7azhQidVr2L5oG4XRsBgTRZ/RRCvk0YBkXXH2eSMWFrZG5DBTRFYIaWc/vMlmVv3Lh+/E6jHu/OpgA1Q0ipqFMqVjJWKBsfplFrgPmj6mxCB4kljH042nIOrv/3js82HcSJrFEomFxXF+27hCWaDVQFhcL+TZvkN1ioZHQbXKuCuvGWkOd0H1pfvBYqSDmsOQ856Cx4wghNOYkDs5DxwZREyYBnh66nRqiM9nKhtfKI9gIWOq6tK5DRxv1f+yxUMFco2bhwJrXC2WjN0B0hfskl6fjvFp1URdA7WQu4fIzWkRYBX2lKSa1UepKN6QjtvKV8o8od1AOo6NK+bEOnQ6dLqqmPLp0x2Ol8MCh0uRJr0j6UrA9BLyofJvRJf1t1+V8jVp1Df+KjM/e2BmMGmS6M1rbAxD+jQ7ZtV/uvF7JLWPVJKf3HkUY3+oVA2dNPjOAQxZ1uXNt/i2axNPYMZ4VyxpQ1Crnl8KmreBLLtekW9VDf/irTD0qXTxNmzdcSl/+mQnJhyfTTNWU2QhIHnsIkov8t7DH5OQL7tKNrOii/YNzWn2Tg9yf9nRhvnQMtgqD+MaNh4xUWgOKQ8HbuhyW0=
+  app: agile-sea-79714
+  on:
+    repo: Korneliu/node-shopping-list-integration-tests
